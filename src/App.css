@@ -42,8 +42,11 @@
 }
 
 @keyframes square {   
-  from { top: 0px; }           
-  to { top: 1000px}
+  0% { top: 0px; }           
+  25% { top: 500px}
+  50% { top: 0px}
+  75% { top: -500px}
+  100% { top: 0px}
 }
 
 .action-ball {
