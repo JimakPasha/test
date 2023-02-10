@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="app">
       <div className="field">
-        <div className="block action-square">1</div>
-        <div className="ball action-ball"></div>
+        <div className={`block ${timerActive ? 'action-square' : ''}`}>1</div>
+        <div className={`ball ${timerActive ? 'action-ball' : ''}`}></div>
         <div className="block">2</div>
       </div>
       <button
